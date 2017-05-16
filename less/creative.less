@@ -28,6 +28,7 @@ a {
     &:hover,
     &:focus {
         color: darken(@theme-primary, 10%);
+        text-decoration: none;
     }
 }
 
@@ -51,7 +52,7 @@ p {
 }
 
 .bg-dark {
-    background-color: @gray-darker;
+    background-color: @brown-darker;
     color: white;
 }
 
@@ -75,7 +76,7 @@ aside {
 
 .navbar-default {
     background-color: white;
-    border-color: fade(@gray-darker, 5%);
+    border-color: fade(@brown-darker, 5%);
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
@@ -88,7 +89,7 @@ aside {
     }
     .navbar-header .navbar-toggle {
         font-size: 12px;
-        color: @gray-darker;
+        color: @brown-darker;
     }
     .nav {
         > li {
@@ -96,7 +97,7 @@ aside {
             > a:focus {
                 font-weight: 700;
                 font-size: 13px;
-                color: @gray-darker;
+                color: @brown-darker;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -132,7 +133,7 @@ aside {
         }
         &.affix {
             background-color: white;
-            border-color: fade(@gray-darker, 5%);
+            border-color: fade(@brown-darker, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
                 font-size: 14px;
@@ -143,7 +144,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: @gray-darker;
+                color: @brown-darker;
                 &:hover {
                     color: @theme-primary;
                 }
@@ -305,7 +306,7 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@gray-darker;white;white);
+    .button-variant(@brown-darker;white;white);
 }
 
 .btn-primary {
@@ -328,13 +329,13 @@ header {
 ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: @gray-darker;
+    background: @brown-darker;
 }
 
 ::selection {
     color: white;
     text-shadow: none;
-    background: @gray-darker;
+    background: @brown-darker;
 }
 
 img::selection {
@@ -348,5 +349,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @gray-darker;
+    webkit-tap-highlight-color: @brown-darker;
 }
