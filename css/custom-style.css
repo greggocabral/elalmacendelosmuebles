@@ -13,11 +13,16 @@ background-attachment: fixed;
 }
 
 .huge-font-custom {
-	font-size: 80px;
+	font-size: 20px;
 }
 
 .mt-20{
   margin-top: 20px;
+}
+
+.logo{
+  height: 42px;
+  display: inline;
 }
 
 .navbar-brand-custom,
@@ -155,6 +160,16 @@ background-attachment: fixed;
   background-image:url(../img/header-mobile.jpg);
   }
 
+  .mobile-mt-80{
+    margin-top: 80px;
+
+  }
+
+  .mobile-mt-160{
+    margin-top: 160px;
+
+  }
+
 
   
 
@@ -179,6 +194,7 @@ background-attachment: fixed;
    .background-img{
   	background-image:url(../img/header.jpg);
 	}
+
    
 }
 
