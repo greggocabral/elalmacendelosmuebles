@@ -1,51 +1,53 @@
-var slideSpeed = 500;
-
-var scrollPosition = 0;
 
 var showingProduct = false;
 
 function showProject(productSelectedId){
 
-	console.log(productSelectedId);
 
-	console.log(products);
-
-	var product = [];
-		product = $.grep(products, function(iproduct){
-			return iproduct.id == productSelectedId;
+	var item = [];
+		item = $.grep(items, function(item){
+			return item.id == productSelectedId;
 		});
 
-		$('#product-title').html(product[0].title);
-		$('#img-col').html('');
-		if(product[0].images != []){
-			product[0].images.forEach(function(image){
-				$('#img-col').addClass("col-xs-10 col-xs-offset-1");
-				$('#img-col').append('<div class="row mt-20"><img class="product-img" src="'+image+'"></div>');
-			});
-			
-		} else {
-			$('#img-col').removeClass("col-sm-4 col-xs-10 offset-xs-1");
-			$('#product-img').html('');
-		}
+		$('#product-type').html(item[0].type);
+		$('#products').html('');
 
-		$('#product-description').html(product[0].description);
+		item[0].products.forEach(function(product){
+			    $('#products').append(''+
+				
+				'<hr class="primary">' +
 
-		if(product[0].link != undefined){
-			$('#product-link').html('<a href="http://'+product[0].link+'"> <i class="fa fa-shopping-cart sr-icons"></i> Comprar</a>');
-		} 
+                '<div class="row"> ' +
+                '    <div class="col-xs-12 text-center"> ' +
+                '        <h2>'+product.name+'</h2> ' +
+                '    </div> ' +
+                '</div> ' +
+
+             
+                '<div class="row">' +
+                '    <div id="img-col" class="col-xs-12">' + 
+                		'<div class="row mt-20"><img class="product-img" src="'+product.images[0]+'"></div>'+
+                '    </div>' +
+                '</div>' +
+
+                '<div class="row">' +
+                '    <div class="col-xs-10 col-xs-offset-1 text-center">' +
+                '        <p><h4 class="mt-20" >'+product.description+'</h4></p>' +  
+                '        <p><h3 class="mt-20" >'+product.dimensions+'</h3></p>' +  
+                '        <p> '+
+                			'<h3 id="product-link">'+
+                			'<a href="http://'+product.link+'"> <i class="fa fa-shopping-cart sr-icons"></i> Comprar</a>'+
+                			'</h3>'+
+                		'</p>' +  
+                '    </div>' +
+                '</div>'); 
+
+        });
 		
 }
 
 function hideProduct(){
 
-	showingProduct = false;
-
-	$(".product-panel").animate({'margin-top': '-1000%'},slideSpeed);
-
-	//scroll back to previous position
-	$('html,body').animate({ scrollTop: scrollPosition }, slideSpeed);
-
-	// $('body').css('overflow', 'auto');
 		
 }
 
@@ -54,7 +56,6 @@ $(document).ready(function() {
 
 	$(".category-text").hide();
 	$(".sub-category-text").hide();
-	$(".product-panel").css({'margin-top': '-1000%'});
 
 
 	$(".link-category" ).click(function() { 
@@ -81,21 +82,10 @@ $(document).ready(function() {
 	$(".product" ).click(function() { 
 
 		showingProduct = true;
-
-		// get current scroll position
-		scrollPosition = $(document).scrollTop();
-
-		// scroll to top
-		$('html,body').animate({ scrollTop: 0 }, slideSpeed);
-
-		$(".product-panel").animate({'margin-top': '0%'},slideSpeed);
 	 		
 		var id = $(this).attr('id');
 		
 		showProject(id);
-
-
-      	// $('body').css('overflow', 'hidden');
 	    
 	 		
 	});	
