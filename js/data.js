@@ -4,30 +4,30 @@ var items = [
 		'id': 'comodas',
 		'type': 'Cómodas',
 		'products': [
-					{'name': 'Cómoda 1',
-					'description': 'Comoda negra',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/comoda-1.jpg'
-						]
-					},
-					{'name': 'Cómoda 2',
-					'description': 'Comoda blanca',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cómoda Antigua',
+					'description': 'Comoda antigua blanca',
+					'dimensions': '120cm x 90cm x 42cm',
 					'images': [
 						'./img/portfolio/fullsize/comoda-2.jpg'
 						]
 					},
-					{'name': 'Cómoda 3',
-					'description': 'Comoda turquesa',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cómoda Antigua',
+					'description': 'Comoda antigua turquesa',
+					'dimensions': '120cm x 90cm x 42cm',
 					'images': [
 						'./img/portfolio/fullsize/comoda-3.jpg'
 						]
 					},
-					{'name': 'Cómoda 4',
-					'description': 'Comoda roja',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cómoda Antigua',
+					'description': 'Cómoda Antigua',
+					'dimensions': '60cm x 80cm x 42cm',
+					'images': [
+						'./img/portfolio/fullsize/mesadeluz-5.jpg'
+						]
+					},
+					{'name': 'Cómoda de campo',
+					'description': 'Cómoda de campo',
+					'dimensions': '180cm x 90cm x 42cm',
 					'images': [
 						'./img/portfolio/fullsize/comoda-4.jpg'
 						]
@@ -40,30 +40,30 @@ var items = [
 		'id': 'estanterias',
 		'type': 'Estanterías',
 		'products': [
-					{'name': 'Estantería 1',
+					{'name': 'Estantería',
 					'description': 'Estantería',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '100cm x 200cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/estanteria-1.jpg'
 						]
 					},
-					{'name': 'Estantería 2',
+					{'name': 'Estantería',
 					'description': 'Estantería',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '50cm x 200cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/estanteria-2.jpg'
 						]
 					},
-					{'name': 'Estantería 3',
-					'description': 'Estantería',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Biblioteca',
+					'description': 'Biblioteca',
+					'dimensions': '60cm x 180cm x 32cm',
 					'images': [
 						'./img/portfolio/fullsize/estanteria-3.jpg'
 						]
 					},
-					{'name': 'Estantería 4',
-					'description': 'Estantería',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Estantería con copero',
+					'description': 'Estantería con copero y rack para botellas botellas',
+					'dimensions': '100cm x 200cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/estanteria-4.jpg'
 						]
@@ -76,9 +76,9 @@ var items = [
 		'id': 'mesasdebano',
 		'type': 'Mesas de baño',
 		'products': [
-					{'name': 'Mesa de baño 1',
+					{'name': 'Mesa de baño',
 					'description': 'Mesa de baño',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '60cm x 80cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadebano-1.jpg'
 						]
@@ -91,60 +91,46 @@ var items = [
 		'id': 'mesasdearrime',
 		'type': 'Mesas de arrime',
 		'products': [
-					{'name': 'Mesa de arrime 1',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Hamilton',
+					'description': 'Mesa Hamilton',
+					'dimensions': '80cm x 90cm x 43cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadearrime-1.jpg'
 						]
 					},
-					{'name': 'Mesa de arrime 2',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/mesadearrime-8.jpg'
-						]
-					},
-					{'name': 'Mesa de arrime 3',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/mesadearrime-3.jpg'
-						]
-					},
-					{'name': 'Mesa de arrime 4',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/mesadearrime-4.jpg'
-						]
-					},
-					{'name': 'Mesa de arrime 5',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Hamilton',
+					'description': 'Mesa Hamilton',
+					'dimensions': '80cm x 90cm x 43cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadearrime-5.jpg'
 						]
 					},
-					{'name': 'Mesa de arrime 6',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Hamilton',
+					'description': 'Mesa Hamilton',
+					'dimensions': '180cm x 90cm x 43cm',
+					'images': [
+						'./img/portfolio/fullsize/mesadearrime-2.jpg'
+						]
+					},
+					{'name': 'Mesa Verdulero',
+					'description': 'Mesa Verdulero',
+					'dimensions': '150cm x 90cm x 45cm',
+					'images': [
+						'./img/portfolio/fullsize/mesadearrime-8.jpg'
+						]
+					},
+					{'name': 'Mesa de campo',
+					'description': 'Mesa de campo',
+					'dimensions': '120cm x 80cm x 60cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadearrime-6.jpg'
 						]
 					},
-					{'name': 'Mesa de arrime 7',
-					'description': 'Mesa de arrime',
+					{'name': 'Mesa de arrime Hindú',
+					'description': 'Comoda negra',
 					'dimensions': '200cm x 150cm x 60cm',
 					'images': [
-						'./img/portfolio/fullsize/mesadearrime-7.jpg'
-						]
-					},
-					{'name': 'Mesa de arrime 8',
-					'description': 'Mesa de arrime',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/mesadearrime-2.jpg'
+						'./img/portfolio/fullsize/comoda-1.jpg'
 						]
 					}
 					],
@@ -153,11 +139,11 @@ var items = [
 	},
 	{
 		'id': 'barras',
-		'type': 'Barras',
+		'type': 'Desayunadores',
 		'products': [
-					{'name': 'Barra 1',
-					'description': 'Barra',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Desayunador con banquetas',
+					'description': 'Desayunador y banquetas con respaldo cuatro fajas. La altura de las banquetas es de 75 cm.',
+					'dimensions': '120cm x 50cm x 43cm',
 					'images': [
 						'./img/portfolio/fullsize/mesabarra-1.jpg'
 						]
@@ -170,46 +156,46 @@ var items = [
 		'id': 'mesasdeluz',
 		'type': 'Mesas de luz',
 		'products': [
-					{'name': 'Mesa de luz 1',
-					'description': 'Mesa de luz',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Cajón Abajo blanca  ',
+					'description': 'Mesa de luz con cajón abajo color blanca',
+					'dimensions': '40cm x 65cm x 30cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadeluz-1.jpg'
 						]
 					},
-					{'name': 'Mesa de luz 2',
-					'description': 'Mesa de luz',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Cajón Abajo roja ',
+					'description': 'Mesa de luz con cajón abajo color roja ',
+					'dimensions': '40cm x 65cm x 30cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadeluz-2.jpg'
 						]
 					},
-					{'name': 'Mesa de luz 3',
-					'description': 'Mesa de luz',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Machimbre',
+					'description': 'Mesa Machimbre',
+					'dimensions': '40cm x 65cm x 30cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadeluz-3.jpg'
 						]
 					},
-					{'name': 'Mesa de luz 4',
-					'description': 'Mesa de luz',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Auxiliar',
+					'description': 'Mesa auxiliar',
+					'dimensions': '40cm x 80cm x 40cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadeluz-4.jpg'
 						]
 					},
-					{'name': 'Mesa de luz 5',
-					'description': 'Mesa de luz',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/mesadeluz-5.jpg'
-						]
-					},
-					{'name': 'Mesa de luz 6',
-					'description': 'Mesa de luz',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa Antigua',
+					'description': 'Mesa Antigua',
+					'dimensions': '50cm x 70cm x 40cm',
 					'images': [
 						'./img/portfolio/fullsize/mesadeluz-6.jpg'
+						]
+					},
+					{'name': 'Mesa de Campo',
+					'description': 'Mesa de luz de Campo',
+					'dimensions': '200cm x 70cm x 45cm',
+					'images': [
+						'./img/portfolio/fullsize/mesaled-4.jpg'
 						]
 					}
 					],
@@ -218,34 +204,48 @@ var items = [
 	},
 	{
 		'id': 'mesasled',
-		'type': 'Mesas para TV LED',
+		'type': 'Mesas de TV',
 		'products': [
-					{'name': 'Mesa para TV LED 1',
-					'description': 'Mesa para TV LED',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa de TV Antigua blanca',
+					'description': 'Mesa de TV Antigua blanca',
+					'dimensions': '150cm x 70cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/mesaled-1.jpg'
 						]
 					},
-					{'name': 'Mesa para TV LED 2',
-					'description': 'Mesa para TV LED',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa de TV Antigua verde',
+					'description': 'Mesa de TV Antigua verde',
+					'dimensions': '150cm x 70cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/mesaled-2.jpg'
 						]
 					},
-					{'name': 'Mesa para TV LED 3',
-					'description': 'Mesa para TV LED',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa de TV Antigua negra',
+					'description': 'Mesa de TV Antigua negra',
+					'dimensions': '100cm x 70cm x 45cm',
 					'images': [
 						'./img/portfolio/fullsize/mesaled-3.jpg'
 						]
 					},
-					{'name': 'Mesa para TV LED 4',
-					'description': 'Mesa para TV LED',
+					{'name': 'Mesa Antigua',
+					'description': 'Mesa antigua para TV LED',
 					'dimensions': '200cm x 150cm x 60cm',
 					'images': [
-						'./img/portfolio/fullsize/mesaled-4.jpg'
+						'./img/portfolio/fullsize/mesadearrime-3.jpg'
+						]
+					},
+					{'name': 'Mesa de 3 cajones',
+					'description': 'Mesa de 3 cajones par TV LED',
+					'dimensions': '200cm x 150cm x 60cm',
+					'images': [
+						'./img/portfolio/fullsize/mesadearrime-4.jpg'
+						]
+					},
+					{'name': 'Mesa de 2 cajones',
+					'description': 'Mesa de 3 cajones par TV LED',
+					'dimensions': '100cm x 70cm x 45cm',
+					'images': [
+						'./img/portfolio/fullsize/mesadearrime-7.jpg'
 						]
 					}
 					],
@@ -256,16 +256,16 @@ var items = [
 		'id': 'mesasratonas',
 		'type': 'Mesas Ratonas',
 		'products': [
-					{'name': 'Mesas Ratona 1',
+					{'name': 'Mesas Ratona ',
 					'description': 'Mesas Ratona',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '120cm x 45cm x 70cm',
 					'images': [
 						'./img/portfolio/fullsize/mesaratona-1.jpg'
 						]
 					},
-					{'name': 'Mesas Ratona 2',
-					'description': 'Mesas Ratona',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Banqueta Doble',
+					'description': 'Banqueta doble',
+					'dimensions': '85cm x 45cm x 35cm',
 					'images': [
 						'./img/portfolio/fullsize/mesaratona-2.jpg'
 						]
@@ -278,9 +278,9 @@ var items = [
 		'id': 'roperos',
 		'type': 'Roperos',
 		'products': [
-					{'name': 'Ropero 1',
+					{'name': 'Ropero',
 					'description': 'Ropero',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '120cm x 200cm x 60cm',
 					'images': [
 						'./img/portfolio/fullsize/ropero-1.jpg'
 						]
@@ -291,48 +291,48 @@ var items = [
 	},
 	{
 		'id': 'vidrio',
-		'type': 'Placards con vidriera',
+		'type': 'Cristaleros',
 		'products': [
-					{'name': 'Placard con vidriera 1',
-					'description': 'Placard con vidriera',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cristalero',
+					'description': 'Cristalero',
+					'dimensions': '70cm x 180cm x 35cm',
 					'images': [
 						'./img/portfolio/fullsize/vidrio-1.jpg'
 						]
 					},
-					{'name': 'Placard con vidriera 2',
-					'description': 'Placard con vidriera',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cristalero',
+					'description': 'Cristalero',
+					'dimensions': '50cm x 180cm x 35cm',
 					'images': [
-						'./img/portfolio/fullsize/vidrio-2.jpg'
+						'./img/portfolio/fullsize/vidrio-6.jpg'
 						]
 					},
-					{'name': 'Placard con vidriera 3',
-					'description': 'Placard con vidriera',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/fullsize/vidrio-3.jpg'
-						]
-					},
-					{'name': 'Placard con vidriera 4',
-					'description': 'Placard con vidriera',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cristalero',
+					'description': 'Cristalero',
+					'dimensions': '100cm x 180cm x 35cm',
 					'images': [
 						'./img/portfolio/fullsize/vidrio-4.jpg'
 						]
 					},
-					{'name': 'Placard con vidriera 5',
-					'description': 'Placard con vidriera',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cristalero Modular',
+					'description': 'Cristalero Modular',
+					'dimensions': '100cm x 200cm x 42cm',
 					'images': [
-						'./img/portfolio/fullsize/vidrio-5.jpg'
+						'./img/portfolio/fullsize/vidrio-2.jpg'
 						]
 					},
-					{'name': 'Placard con vidriera 6',
-					'description': 'Placard con vidriera',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Cristalero Colonial',
+					'description': 'Cristalero Colonial',
+					'dimensions': '70cm x 200cm x 45cm',
 					'images': [
-						'./img/portfolio/fullsize/vidrio-6.jpg'
+						'./img/portfolio/fullsize/vidrio-3.jpg'
+						]
+					},
+					{'name': 'Cristalero Bajo',
+					'description': 'Cristalero Bajo',
+					'dimensions': '40cm x 160cm x 35cm',
+					'images': [
+						'./img/portfolio/fullsize/vidrio-5.jpg'
 						]
 					}
 					],
@@ -341,11 +341,11 @@ var items = [
 	},
 	{
 		'id': 'mesacocina',
-		'type': 'Mesas para cocina',
+		'type': 'Mesas Bar',
 		'products': [
-					{'name': 'Mesa para cocina 1',
-					'description': 'Mesa para cocina',
-					'dimensions': '200cm x 150cm x 60cm',
+					{'name': 'Mesa bar',
+					'description': 'Mesa bar y sillas rectas. Altura de asiento: 45cm',
+					'dimensions': '70cm x 80cm x 70cm',
 					'images': [
 						'./img/portfolio/fullsize/mesacocina-1.jpg'
 						]
