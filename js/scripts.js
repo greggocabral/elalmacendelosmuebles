@@ -25,8 +25,10 @@ function showProject(productSelectedId){
 
              
                 '<div class="row">' +
-                '    <div id="img-col" class="col-xs-6 col-xs-offset-3">' + 
-                		'<div class="row mt-20"><img class="product-img" src="'+product.images[0]+'"></div>'+
+                '    <div id="img-col" class="col-xs-4 col-xs-offset-4">' + 
+                		'<a href="'+product.images[0]+'">' +
+                			'<div class="row mt-20"><img class="product-img" src="'+product.images[0]+'"></div>'+
+                		'</a>' +
                 '    </div>' +
                 '</div>' +
 
