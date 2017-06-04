@@ -4,7 +4,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 hr {
   border-color: #8c0000;
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 p {
   font-size: 18px;
@@ -60,14 +60,14 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(205, 172, 110, 0.05);
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #8c0000;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -220,7 +220,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
-  opacity: 0;
+  opacity: 0.65;
   display: block;
   background: rgba(140, 0, 0, 0.9);
   position: absolute;
@@ -241,7 +241,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -372,7 +372,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;

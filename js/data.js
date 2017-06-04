@@ -190,13 +190,6 @@ var items = [
 					'images': [
 						'./img/portfolio/mediumsize/mesadeluz-6.jpg'
 						]
-					},
-					{'name': 'Mesa de Campo',
-					'description': 'Mesa de luz de Campo',
-					'dimensions': '200cm x 70cm x 45cm',
-					'images': [
-						'./img/portfolio/mediumsize/mesaled-4.jpg'
-						]
 					}
 					],
 		'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/'
@@ -220,14 +213,14 @@ var items = [
 						'./img/portfolio/mediumsize/mesaled-2.jpg'
 						]
 					},
-					{'name': 'Mesa de TV Antigua negra',
+					{'name': 'Mesa de TV Antigua de 2 cajones',
 					'description': 'Mesa de TV Antigua negra',
 					'dimensions': '100cm x 70cm x 45cm',
 					'images': [
 						'./img/portfolio/mediumsize/mesaled-3.jpg'
 						]
 					},
-					{'name': 'Mesa Antigua',
+					{'name': 'Mesa de TV Antigua de 3 cajones',
 					'description': 'Mesa antigua para TV LED',
 					'dimensions': '200cm x 150cm x 60cm',
 					'images': [
@@ -247,6 +240,13 @@ var items = [
 					'images': [
 						'./img/portfolio/mediumsize/mesadearrime-7.jpg'
 						]
+					},
+					{'name': 'Mesa de campo',
+					'description': 'Mesa de TV de Campo',
+					'dimensions': '200cm x 70cm x 45cm',
+					'images': [
+						'./img/portfolio/mediumsize/mesaled-4.jpg'
+						]
 					}
 					],
 		'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/'
@@ -256,7 +256,7 @@ var items = [
 		'id': 'mesasratonas',
 		'type': 'Mesas Ratonas',
 		'products': [
-					{'name': 'Mesas Ratona ',
+					{'name': 'Mesa Ratona ',
 					'description': 'Mesas Ratona',
 					'dimensions': '120cm x 45cm x 70cm',
 					'images': [
