@@ -5,6 +5,7 @@ body {
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 hr {
   border-color: #8c0000;
@@ -31,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 p {
   font-size: 18px;
@@ -60,14 +61,14 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(205, 172, 110, 0.05);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Serif Pro', serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #8c0000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {

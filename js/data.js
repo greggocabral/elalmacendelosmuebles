@@ -11,13 +11,13 @@ var items = [
 						'./img/portfolio/mediumsize/comoda-2.jpg'
 						]
 					},
-					{'name': 'Cómoda Antigua',
-					'description': 'Comoda antigua turquesa',
-					'dimensions': '120cm x 90cm x 42cm',
-					'images': [
-						'./img/portfolio/mediumsize/comoda-3.jpg'
-						]
-					},
+					// {'name': 'Cómoda Antigua',
+					// 'description': 'Comoda antigua turquesa',
+					// 'dimensions': '120cm x 90cm x 42cm',
+					// 'images': [
+					// 	'./img/portfolio/mediumsize/comoda-3.jpg'
+					// 	]
+					// },
 					{'name': 'Cómoda Antigua',
 					'description': 'Cómoda Antigua',
 					'dimensions': '60cm x 80cm x 42cm',
@@ -100,13 +100,6 @@ var items = [
 					},
 					{'name': 'Mesa Hamilton',
 					'description': 'Mesa Hamilton',
-					'dimensions': '80cm x 90cm x 43cm',
-					'images': [
-						'./img/portfolio/mediumsize/mesadearrime-5.jpg'
-						]
-					},
-					{'name': 'Mesa Hamilton',
-					'description': 'Mesa Hamilton',
 					'dimensions': '180cm x 90cm x 43cm',
 					'images': [
 						'./img/portfolio/mediumsize/mesadearrime-2.jpg'
@@ -127,10 +120,24 @@ var items = [
 						]
 					},
 					{'name': 'Mesa de arrime Hindú',
-					'description': 'Comoda negra',
+					'description': 'Mesa de arrime Hindú',
 					'dimensions': '200cm x 150cm x 60cm',
 					'images': [
 						'./img/portfolio/mediumsize/comoda-1.jpg'
+						]
+					},
+					{'name': 'Mesa de arrime',
+					'description': '',
+					'dimensions': '200cm x 150cm x 60cm',
+					'images': [
+						'./img/portfolio/mediumsize/mesadearrime-9.jpg'
+						]
+					},
+					{'name': 'Mesa de arrime',
+					'description': '',
+					'dimensions': '200cm x 150cm x 60cm',
+					'images': [
+						'./img/portfolio/mediumsize/mesadearrime-10.jpg'
 						]
 					}
 					],
@@ -156,18 +163,11 @@ var items = [
 		'id': 'mesasdeluz',
 		'type': 'Mesas de luz',
 		'products': [
-					{'name': 'Mesa Cajón Abajo blanca  ',
-					'description': 'Mesa de luz con cajón abajo color blanca',
+					{'name': 'Mesa Cajón Abajo',
+					'description': 'Mesa de luz con cajón abajo',
 					'dimensions': '40cm x 65cm x 30cm',
 					'images': [
 						'./img/portfolio/mediumsize/mesadeluz-1.jpg'
-						]
-					},
-					{'name': 'Mesa Cajón Abajo roja ',
-					'description': 'Mesa de luz con cajón abajo color roja ',
-					'dimensions': '40cm x 65cm x 30cm',
-					'images': [
-						'./img/portfolio/mediumsize/mesadeluz-2.jpg'
 						]
 					},
 					{'name': 'Mesa Machimbre',
@@ -199,13 +199,13 @@ var items = [
 		'id': 'mesasled',
 		'type': 'Mesas de TV',
 		'products': [
-					{'name': 'Mesa de TV Antigua blanca',
-					'description': 'Mesa de TV Antigua blanca',
-					'dimensions': '150cm x 70cm x 45cm',
-					'images': [
-						'./img/portfolio/mediumsize/mesaled-1.jpg'
-						]
-					},
+					// {'name': 'Mesa de TV Antigua blanca',
+					// 'description': 'Mesa de TV Antigua blanca',
+					// 'dimensions': '150cm x 70cm x 45cm',
+					// 'images': [
+					// 	'./img/portfolio/mediumsize/mesaled-1.jpg'
+					// 	]
+					// },
 					{'name': 'Mesa de TV Antigua verde',
 					'description': 'Mesa de TV Antigua verde',
 					'dimensions': '150cm x 70cm x 45cm',
@@ -220,13 +220,13 @@ var items = [
 						'./img/portfolio/mediumsize/mesaled-3.jpg'
 						]
 					},
-					{'name': 'Mesa de TV Antigua de 3 cajones',
-					'description': 'Mesa antigua para TV LED',
-					'dimensions': '200cm x 150cm x 60cm',
-					'images': [
-						'./img/portfolio/mediumsize/mesadearrime-3.jpg'
-						]
-					},
+					// {'name': 'Mesa de TV Antigua de 3 cajones',
+					// 'description': 'Mesa antigua para TV LED',
+					// 'dimensions': '200cm x 150cm x 60cm',
+					// 'images': [
+					// 	'./img/portfolio/mediumsize/mesadearrime-3.jpg'
+					// 	]
+					// },
 					{'name': 'Mesa de 3 cajones',
 					'description': 'Mesa de 3 cajones par TV LED',
 					'dimensions': '200cm x 150cm x 60cm',
@@ -261,13 +261,6 @@ var items = [
 					'dimensions': '120cm x 45cm x 70cm',
 					'images': [
 						'./img/portfolio/mediumsize/mesaratona-1.jpg'
-						]
-					},
-					{'name': 'Banqueta Doble',
-					'description': 'Banqueta doble',
-					'dimensions': '85cm x 45cm x 35cm',
-					'images': [
-						'./img/portfolio/mediumsize/mesaratona-2.jpg'
 						]
 					}
 					],
@@ -353,5 +346,34 @@ var items = [
 					],
 		'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/'
 		
-	}
+	},
+	{
+		'id': 'banquetas',
+		'type': 'Banquetas',
+		'products': [
+		{'name': 'Banqueta Doble',
+					'description': 'Banqueta doble',
+					'dimensions': '85cm x 45cm x 35cm',
+					'images': [
+						'./img/portfolio/mediumsize/mesaratona-2.jpg'
+						]
+					},
+					{'name': 'Banqueta para desayunador',
+					'description': 'Banqueta alta con respaldo cuatro fajas.',
+					'dimensions': '75 cm de alto',
+					'images': [
+						'./img/portfolio/mediumsize/mesabarra-1.jpg'
+						]
+					},
+					{'name': 'Banqueta para desayunador',
+					'description': 'Banqueta alta con respaldo cuatro barras.',
+					'dimensions': '75 cm de alto',
+					'images': [
+						'./img/portfolio/mediumsize/banqueta-1.jpg'
+						]
+					}
+					],
+		'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/'
+		
+	},
 ];
