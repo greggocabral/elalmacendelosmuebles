@@ -135,17 +135,17 @@ var items = [
 						'./img/portfolio/mediumsize/comoda-1.jpg'
 						]
 					},
-					{'name': 'Mesa de arrime',
+					{'name': 'Mesa de audio',
 					'description': '',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '100cm x 70cm x 32cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
 					'images': [
 						'./img/portfolio/mediumsize/mesadearrime-9.jpg'
 						]
 					},
-					{'name': 'Mesa de arrime',
+					{'name': 'Mesa de arrime Hamilton',
 					'description': '',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '120cm x 90cm x 40cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
 					'images': [
 						'./img/portfolio/mediumsize/mesadearrime-10.jpg'
@@ -160,7 +160,7 @@ var items = [
 		'products': [
 					{'name': 'Desayunador con banquetas',
 					'description': 'Desayunador y banquetas con respaldo cuatro fajas. La altura de las banquetas es de 75 cm.',
-					'dimensions': '120cm x 50cm x 43cm',
+					'dimensions': '120cm x 100cm x 50cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
 					'images': [
 						'./img/portfolio/mediumsize/mesabarra-1.jpg'
@@ -197,7 +197,7 @@ var items = [
 						'./img/portfolio/mediumsize/mesadeluz-4.jpg'
 						]
 					},
-					{'name': 'Mesa Antigua',
+					{'name': 'Mesa de luz antigua',
 					'description': 'Mesa Antigua',
 					'dimensions': '50cm x 70cm x 40cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
@@ -242,16 +242,16 @@ var items = [
 					// 	'./img/portfolio/mediumsize/mesadearrime-3.jpg'
 					// 	]
 					// },
-					{'name': 'Mesa de 3 cajones',
+					{'name': 'Mesa de TV de 1.5 metros',
 					'description': 'Mesa de 3 cajones par TV LED',
-					'dimensions': '200cm x 150cm x 60cm',
+					'dimensions': '150cm x 70cm x 45cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
 					'images': [
 						'./img/portfolio/mediumsize/mesadearrime-4.jpg'
 						]
 					},
-					{'name': 'Mesa de 2 cajones',
-					'description': 'Mesa de 3 cajones par TV LED',
+					{'name': 'Mesa de TV de 1 metro',
+					'description': 'Mesa de 2 cajones para TV LED',
 					'dimensions': '100cm x 70cm x 45cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
 					'images': [
@@ -319,7 +319,7 @@ var items = [
 						'./img/portfolio/mediumsize/vidrio-6.jpg'
 						]
 					},
-					{'name': 'Cristalero',
+					{'name': 'Cristalero dos puertas',
 					'description': 'Cristalero',
 					'dimensions': '100cm x 180cm x 35cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
@@ -375,7 +375,7 @@ var items = [
 		'products': [
 		{'name': 'Banqueta Doble',
 					'description': 'Banqueta doble',
-					'dimensions': '85cm x 45cm x 35cm',
+					'dimensions': '85cm x 35cm x 45cm',
 					'link': 'https://www.facebook.com/El-almacen-de-los-muebles-536841893015355/',
 					'images': [
 						'./img/portfolio/mediumsize/mesaratona-2.jpg'
