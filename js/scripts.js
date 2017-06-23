@@ -38,7 +38,7 @@ function showProject(productSelectedId){
                 '        <p><h3 class="mt-20" >'+product.dimensions+'</h3></p>' +  
                 '        <p> '+
                 			'<h3 id="product-link">'+
-                			'<a href="http://'+product.link+'"> <i class="fa fa-shopping-cart sr-icons"></i> Comprar</a>'+
+                			'<a href="'+product.link+'"> <i class="fa fa-shopping-cart sr-icons"></i> Comprar</a>'+
                 			'</h3>'+
                 		'</p>' +  
                 '    </div>' +
