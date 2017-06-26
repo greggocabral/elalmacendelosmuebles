@@ -1,4 +1,8 @@
-
+.text-bg-custom{
+  background: rgba(140, 0, 0, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px; 
+}
 
 .huge-font-custom {
 	font-size: 20px;
